@@ -61,15 +61,31 @@ body{
     height: 100vh;
     
 }
+.banner-content{
+    padding-top: 100px;
+}
 
 .banner-content h2{
     font-size: 72px;
-    padding-top: 154px;
+    padding-top: 16px;
     list-style: 84px;
     font-style: bold;
     color: white;
     text-transform: capitalize;
  
+}
+.my-button{
+    color: #30B868;
+    padding: 8px 15px 8px 15px;
+    background-color: #FFFFFF;
+     border: none;
+     border-radius: 50px;
+     display: inline;
+     margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    
 }
 .green{
     color: #30B868;
@@ -298,6 +314,7 @@ body{
 
 .footer-container{
     background-color:rgba(0, 25, 49, 1);
+    margin-top: 100px;
   
 }
 .footer{

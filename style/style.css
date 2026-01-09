@@ -1,0 +1,113 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --- main style---*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    height: 92px;
+    padding: 16px 120px 16px 120px;
+    background-color: #FFFFFF;
+}
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+.manu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    font-size: 16px;
+    line-height: 152px;
+    text-align: left;
+
+}
+.manu a{
+    text-decoration: none;
+}
+.btn{
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #30B868;
+    color: white;
+    gap: 10px;
+    padding: 12px 16px 12px 16px;
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+}
+.banner{
+    width: 1360px;
+    height: 379px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../image/hero-bg.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    color: #001931;
+    height: 100vh;
+    
+}
+
+.banner-content h2{
+    font-size: 72px;
+    padding-top: 154px;
+    list-style: 84px;
+    font-style: bold;
+    color: white;
+    text-transform: capitalize;
+ 
+}
+.green{
+    color: #30B868;
+}
+.banner-content p{
+    font-size: 16px;
+    padding-top: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+
+.btns{
+    padding-top: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-green{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #469165;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-outline{
+ 
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ----header
